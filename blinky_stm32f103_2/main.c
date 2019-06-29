@@ -16,7 +16,6 @@ void setup_gpio()
         GPIO_Init(GPIOC, &GPIO_InitStructure);
 }
 
-
 int main()
 {
         setup_gpio();
